@@ -1,0 +1,328 @@
+﻿/* ::::: https://www.navyfederal.org/css/mainNav.css (@media screen) ::::: */
+
+@media screen {
+#top-navigation { width: 962px; height: 43px; padding: 0px; background: transparent url("27.png") no-repeat scroll 0% 0%; }
+#navigation { list-style: outside none none; font: bold 14px Arial,sans-serif; margin: 0px; padding: 1px 0px 0px; }
+#navlist a { margin-bottom: 5px; font: 18px Arial,sans-serif; }
+#navigation li { float: left; text-align: center; margin: 0px; padding: 7px 0px; position: relative; font-family: Arial,sans-serif; }
+#navigation li.accountaccess, #navigation li.products, #navigation li.membership, #navigation li.search, #navigation li.adviceandplan { width: 190px; }
+#navigation li.products:hover, #navigation li.membership:hover, #navigation li.adviceandplan:hover { background: rgb(255, 255, 255) none repeat scroll 0% 0%; margin: 3px 4px 0px; border-bottom: 1px solid rgb(255, 255, 255); padding: 5px 0px; width: 182px; z-index: 500; border-radius: 4px 4px 0px 0px; }
+@media not all {
+  #navigation li.products:hover, #navigation li.membership:hover, #navigation li.adviceandplan:hover { margin: 3px 3px 0px 5px; padding: 4px 0px 5px; }
+}
+#navigation a { color: rgb(255, 255, 255); text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5); outline: 0px none; text-decoration: none; display: inline; line-height: 2em; }
+#navlist { position: absolute; left: -999em; margin-top: 5px; width: 962px; padding: 30px 10px 0px; text-align: left; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border-right: 1px solid rgb(229, 227, 223); border-left: 1px solid rgb(229, 227, 223); box-shadow: -3px 2px 2px rgba(0, 0, 0, 0.1), 3px 2px 2px rgba(0, 0, 0, 0.1), 0px 6px 4px rgba(0, 0, 0, 0.2); }
+#navlist {  }
+.prod_hdr { font: bold 12px arial; margin-bottom: 5px; }
+#navlist ul li { list-style: outside none none; float: none; text-align: left; line-height: 19px; margin: 0px; padding: 0px; }
+#navlist ul li a { font: 12px arial; float: none; text-align: left; }
+#navlist ul li { line-height: 14px; margin: 7px 0px; }
+#navigation li.navdivider, li.navdivider:hover { padding: 0px; margin: 0px; background: transparent none repeat scroll 0% 0%; }
+#navigation li.products:hover #navlist { left: -194px; width: 940px; top: auto; position: absolute; }
+#navigation li.membership:hover #navlist { left: -386px; width: 940px; top: auto; }
+#navigation li.adviceandplan:hover #navlist { left: -578px; width: 940px; top: auto; }
+@media not all {
+  #navigation li.products:hover #navlist { left: -196px; width: 942px; top: auto; position: absolute; }
+  #navigation li.membership:hover #navlist { left: -387px; width: 942px; top: auto; }
+  #navigation li.adviceandplan:hover #navlist { left: -579px; width: 942px; top: auto; }
+}
+#navigation li:hover a { color: rgb(14, 51, 94); text-shadow: none; }
+#navigation li:hover a:hover { color: rgb(14, 51, 94); text-shadow: none; }
+#navigation #navlist a { color: rgb(38, 106, 181); text-shadow: none; }
+#navigation #navlist a:hover { color: rgb(255, 159, 59); text-shadow: none; }
+#navigation li.accountaccess:hover a { color: rgb(185, 218, 255); text-shadow: none; }
+#navigation li.accountaccess:hover, a.accountaccess:hover { color: rgb(185, 218, 255); text-shadow: none; }
+.item { float: left; width: 145px; margin: 5px 0px 35px; padding-left: 10px; position: relative; }
+.item2 { float: left; width: 260px; margin: 5px 40px 35px 0px; padding-left: 10px; position: relative; font: 12px arial; }
+#menuItems ul li { border-bottom: 1px dotted rgb(197, 203, 209); margin-bottom: 10px; padding-bottom: 4px; }
+#menuItems ul li.last { border: medium none; margin-bottom: 0px; padding-bottom: 0px; }
+.products > div, .membership > div, .adviceandplan > div { visibility: hidden; opacity: 0; transition: visibility 0s linear 0.2s, opacity 0.2s linear 0s ! important; }
+.products:hover > div, .membership:hover > div, .adviceandplan:hover > div { visibility: visible; opacity: 1; }
+#gs { padding: 0px; margin: 0px; position: absolute; top: 6px; right: 0px; float: right; }
+#gs input[type="text"] { margin: 1px 0px 0px; background-color: rgb(255, 255, 255); border: 0px none; font: 13px arial; color: rgb(194, 197, 201); width: 155px; padding: 6px 25px 6px 4px; border-radius: 3px; box-shadow: 0px 2px 0px rgba(255, 255, 255, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.2) inset; transition: all 0.8s ease 0s; }
+#gs input[type="text"]:focus { background-color: rgb(252, 252, 252); color: rgb(34, 34, 34); width: 155px; box-shadow: 0px 2px 0px rgba(255, 255, 255, 0.1), 0px 2px 0px rgba(0, 0, 0, 0.4) inset; }
+#gs input[type="submit"] { background: rgb(255, 255, 255) url("32.png") no-repeat scroll 0px 0px; position: absolute; top: 5px; right: 4px; width: 26px; height: 22px; border: medium none; cursor: pointer; margin-bottom: 4px; }
+}
+/* ::::: https://www.navyfederal.org/css/common.css (@media screen) ::::: */
+
+@media screen {
+@font-face {
+  font-family: "Gudea";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Gudea"), url("Z6xYy_2MlN1cUISkeodEPA.woff") format("woff");
+}
+@font-face {
+  font-family: "Gudea";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Gudea Bold"), local("Gudea-Bold"), url("6M2RKly85u67vSsXH0-zqvesZW2xOQ-xsNqO47m55DA.woff") format("woff");
+}
+@font-face {
+  font-family: "Gudea";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Gudea Italic"), local("Gudea-Italic"), url("7K8okIOV072GIwnptze9lg.woff") format("woff");
+}
+* { margin: 0px; padding: 0px; }
+a img, frameset { border: 0px none; }
+html, body, div, span, object, h1, h2, h, h4, h5, h6, p, em, img, form, input, label, legend, table, tr, th, td, hr { margin: 0px; padding: 0px; border: 0px none; font-size: 100%; }
+body { margin: 0px auto; font: 12px arial; color: rgb(34, 34, 34); background: transparent url("8.jpg") no-repeat scroll center top; }
+:focus { outline: 0px none; }
+#pagebox { position: relative; margin: 0px auto; width: 962px; padding: 0px 9px; }
+#pagecontent { clear: both; width: 962px; padding: 0px 0px 10px; margin-top: 10px; position: relative; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border-top-right-radius: 3px; border-top-left-radius: 3px; }
+#logolayer { float: left; width: 274px; height: 69px; margin-top: -17px; z-index: 100; }
+#mssgHdrNFO { float: right; background: transparent url("24.png") no-repeat scroll 0% 0%; width: 167px; height: 33px; }
+#mssgHdrNFO a:link, #mssgHdrNFO a:visited { font: bold 12px arial; text-decoration: none; }
+#mssgHdrNFO a:hover { color: rgb(255, 159, 59); }
+.nav-wrap { display: none; }
+#globalnav { float: right; margin: 42px 0px 14px; z-index: 110; color: rgb(38, 106, 182); word-spacing: 1px; font-size: 13px; }
+.formSignIn { margin: 5px 0px; width: 179px; padding: 6px 25px 6px 5px; background-color: rgb(255, 255, 255); border: 1px solid rgb(194, 193, 188); border-radius: 3px; }
+.button { background: transparent linear-gradient(to bottom, rgb(255, 181, 42) 0%, rgb(243, 135, 16) 100%) repeat scroll 0% 0%; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(254, 154, 49) rgb(218, 128, 35) rgb(186, 106, 23); display: inline-block; color: rgb(255, 255, 255); font: bold 11px Arial,Helvetica,sans-serif; text-transform: uppercase; padding: 3px 15px; box-shadow: -1px 1px 3px 1px rgba(0, 0, 0, 0.1); }
+.button:hover { background: rgb(252, 166, 77) -moz-linear-gradient(center top , rgb(255, 181, 104) 5%, rgb(250, 153, 52) 100%) repeat scroll 0% 0%; color: rgb(255, 255, 255); }
+.button:active { background: rgb(234, 129, 19) -moz-linear-gradient(center top , rgb(255, 159, 59) 5%, rgb(234, 129, 19) 100%) repeat scroll 0% 0%; box-shadow: 0px 2px 1px 0px rgb(234, 142, 47) inset; color: rgb(255, 255, 255); }
+.clearfix::after { content: " "; display: table; clear: both; }
+hr { clear: both; width: 672px; background-color: rgb(224, 227, 230); border: medium none; height: 1px; }
+li { margin: 0px; line-height: 20px; }
+a img { border: 0px none; }
+p { font: 13px/19px Arial,Helvetica,sans-serif; margin: 0px 0px 10px; }
+h2 { font: 22px Arial,Helvetica,sans-serif; color: rgb(34, 34, 34); margin: 0px; padding: 0px 0px 10px; }
+h3 { margin: 0px; padding: 0px 0px 10px; font: bold 18px "Gudea",arial,sans-serif; color: rgb(13, 51, 93); text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); }
+h4 { margin: 0px; padding: 0px 0px 10px; font: bold 15px arial,sans-serif; color: rgb(13, 51, 93); }
+a:link, a:visited { color: rgb(38, 106, 182); text-decoration: none; outline: 0px none; }
+a:hover { color: rgb(255, 159, 59); text-decoration: none; outline: 0px none; }
+a:focus { outline: 0px none; }
+:focus { outline: 0px none; }
+.formSignIn:focus { background-color: rgb(255, 253, 242); border: 1px solid rgb(255, 158, 19); box-shadow: 0px 0px 5px rgb(185, 212, 233); }
+#footercontainer { position: relative; clear: both; width: 100%; height: 100%; margin: 0px auto; padding: 0px; }
+#navyfooter { position: relative; width: 962px; height: 100%; margin: 0px auto; padding: 16px 10px 0px; }
+#footercontainer, #navyfooter { background: rgb(233, 230, 222) url("4.jpg") repeat-x scroll 0% 0%; }
+#navyfooter ul li { line-height: 14px; margin: 7px 0px; }
+#subfooterlogo { float: left; margin-right: 20px; width: 74px; }
+#subfooternav { float: left; width: 850px; padding: 0px 10px 10px 0px; font: 12px Arial,Helvetica,sans-serif; color: rgb(78, 79, 81); }
+#subnav { float: left; width: 100%; line-height: 18px; }
+#footercopyright { width: 100%; padding: 10px 0px 0px; font-size: 11px; float: left; line-height: 15px; color: rgb(124, 126, 130); }
+.footerCntrs { float: left; width: 197px; min-height: 20px; padding: 10px 0px 20px 40px; color: rgb(124, 126, 130); }
+.aboutCopy { padding: 0px 0px 10px; width: 224px; }
+.mission { font-style: italic; }
+.mission::before, .mission::after { content: "\""; }
+.socialCopy { width: 224px; }
+.footerCntrs ul li { list-style: outside none none; margin: 0px 0px 0px 16px; line-height: 18px ! important; }
+.footerContHdr { font: bold 13px arial; color: rgb(34, 34, 34); text-transform: uppercase; margin-bottom: 10px; }
+.socialIconsFtr { height: 24px; margin-top: 15px; }
+.socialIconsFtr a { float: left; height: 24px; width: 24px; display: block; font-size: 0px; overflow: hidden; margin: 0px 16px 15px 0px; background-image: url("19.png"); }
+.socialIconsFtr a.fb { background-position: -24px 0px; }
+.socialIconsFtr a.tw { background-position: -24px -44px; }
+.socialIconsFtr a.yt { background-position: -24px -88px; }
+.socialIconsFtr a.li { background-position: -24px -132px; }
+.socialIconsFtr a.insta { background-position: -24px -308px; margin-right: 0px; }
+.socialIconsFtr a.blog { background-position: -24px -264px; }
+.socialIconsFtr a.fb:hover { background-position: 0px 0px; }
+.socialIconsFtr a.tw:hover { background-position: 0px -44px; }
+.socialIconsFtr a.yt:hover { background-position: 0px -88px; }
+.socialIconsFtr a.li:hover { background-position: 0px -132px; }
+.socialIconsFtr a.insta:hover { background-position: 0px -308px; }
+.socialIconsFtr a.blog:hover { background-position: 0px -264px; }
+.footerLine { width: 100%; height: 3px; border: 0px none; background-color: rgb(35, 87, 145); margin-bottom: 20px; clear: both; }
+.footerPipe { color: rgb(153, 153, 153); margin: 0px 4px; }
+.bestbanks { float: right; margin-right: -5px; margin-top: -15px; padding-bottom: 70px; }
+.modalTitle { position: absolute; top: 20px; left: 15px; font: bold 16px/16px Arial,helvetica,sans-serif; color: rgb(255, 255, 255); }
+#note { font-family: Arial,Helvetica,sans-serif; font-size: 11px; color: rgb(124, 126, 130); float: left; margin-top: 10px; }
+#note p { margin: 0px; font-size: 11px; }
+}
+/* ::::: https://www.navyfederal.org/css/nfo.css (@media screen) ::::: */
+
+@media screen {
+#signInCont { position: absolute; top: 15px; left: 10px; width: 250px; height: 318px; box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); z-index: 222; border-radius: 4px; }
+#lockImg { background: transparent url("26.png") no-repeat scroll right top; float: left; margin-right: 7px; margin-top: 1px; width: 12px; }
+input.account { height: 18px; padding: 3px; width: 213px; }
+.signonlabel { font: bold 13px arial; color: rgb(80, 80, 80); }
+.clearfix::after { content: " "; display: table; clear: both; }
+#footercontainer ul li { margin-left: 0px; }
+input { background-color: transparent; }
+#capsLokMsg { position: absolute; display: none; top: 50px; left: 265px; width: 250px; height: 210px; padding: 10px 12px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; font: 13px arial; border-radius: 5px; box-shadow: 0px 4px 10px rgb(153, 153, 153); z-index: 999999; }
+#capsLokMsg::before { content: url("25.png"); position: absolute; top: 32px; left: -24px; }
+#capsLokMsg .close img { opacity: 0.7; }
+#capsLokMsg .close:hover img { opacity: 1; }
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+.last { margin-bottom: 0px; }
+#facebox { position: absolute; top: 0px; left: 0px; z-index: 999999; text-align: left; }
+#facebox .popup { position: relative; margin-top: 65px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; padding: 5px; border: 10px solid rgba(0, 0, 0, 0.5); border-radius: 10px; box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.4); }
+#facebox .header { position: relative; top: 0px; left: 0px; width: 640px; background: rgb(255, 255, 255) url("7.jpg") repeat-x scroll 0% 0%; height: 44px; border-top-left-radius: 5px; border-top-right-radius: 5px; }
+@media not all {
+  #facebox .header { position: relative; top: 0px; left: 0px; width: 640px; background: rgb(255, 255, 255) url("7.jpg") repeat-x scroll 0% 0%; height: 44px; border-top-left-radius: 5px; border-top-right-radius: 5px; }
+}
+#facebox .content { display: table; width: 610px; padding: 10px 0px 10px 10px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+#facebox .close { position: absolute; top: 10px; right: 10px; }
+#facebox .close img { opacity: 0.7; }
+#facebox .close:hover img { opacity: 1; }
+#facebox img { border: 0px none; margin: 0px; }
+}
+/* ::::: [internal] ::::: */
+
+/* ::::: https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&subset=latin ::::: */
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Source Sans Pro"), local("SourceSansPro-Regular"), url("ODelI1aHBYDBqgeIAH2zlNOAHFN6BivSraYkjhveRHY.woff2") format("woff2");
+  unicode-range: U+102-103, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Source Sans Pro"), local("SourceSansPro-Regular"), url("ODelI1aHBYDBqgeIAH2zlC2Q8seG17bfDXYR_jUsrzg.woff2") format("woff2");
+  unicode-range: U+100-24F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Source Sans Pro"), local("SourceSansPro-Regular"), url("ODelI1aHBYDBqgeIAH2zlNV_2ngZ8dMf8fLgjYEouxg.woff2") format("woff2");
+  unicode-range: U+0-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Source Sans Pro Semibold"), local("SourceSansPro-Semibold"), url("toadOcfmlt9b38dHJxOBGClYwVOhDRq2vbpGRTZ7bbs.woff2") format("woff2");
+  unicode-range: U+102-103, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Source Sans Pro Semibold"), local("SourceSansPro-Semibold"), url("toadOcfmlt9b38dHJxOBGFKFh1TDTPrUZWzVp6FtpG8.woff2") format("woff2");
+  unicode-range: U+100-24F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Source Sans Pro Semibold"), local("SourceSansPro-Semibold"), url("toadOcfmlt9b38dHJxOBGCOFnW3Jk0f09zW_Yln67Ac.woff2") format("woff2");
+  unicode-range: U+0-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Source Sans Pro Bold"), local("SourceSansPro-Bold"), url("toadOcfmlt9b38dHJxOBGDovqjS_dXPZszO_XltPdNg.woff2") format("woff2");
+  unicode-range: U+102-103, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Source Sans Pro Bold"), local("SourceSansPro-Bold"), url("toadOcfmlt9b38dHJxOBGFxe-GPfKKFmiXaJ_Q0GFr8.woff2") format("woff2");
+  unicode-range: U+100-24F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Source Sans Pro Bold"), local("SourceSansPro-Bold"), url("toadOcfmlt9b38dHJxOBGEo0As1BFRXtCDhS66znb_k.woff2") format("woff2");
+  unicode-range: U+0-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* ::::: https://www.navyfederal.org/css/nfo-hp-20150709.css ::::: */
+
+body { background: rgb(235, 243, 251) url("31.png") no-repeat scroll center top; }
+.clearfix {  }
+.clearfix::before, .clearfix::after { content: ""; display: table; }
+.clearfix::after { clear: both; }
+.center { text-align: center; }
+#pagecontent { background: transparent none repeat scroll 0% 0%; }
+#signInCont { background-color: rgb(255, 255, 255); height: 315px; left: 20px; top: 20px; z-index: 450; }
+#lockImg { background: transparent url("21.png") no-repeat scroll 0% 0%; height: 16px; margin: 0px; width: 12px; }
+.signInHeader { background-color: rgba(152, 152, 152, 0.86); color: rgb(255, 255, 255); font-size: 16px; font-weight: bold; line-height: 1em; padding: 8px 20px; text-transform: uppercase; }
+.signInBody { padding: 18px 20px 40px; }
+.signontip { font-size: 11px; display: block; }
+.pwlabel { display: inline-block; padding-top: 8px; }
+.signInBody input.account { margin-bottom: 2px; width: 202px; }
+.signInBody .button { font: bold 12px Arial,Helvetica,sans-serif; cursor: pointer; text-shadow: 0px -0.1em rgb(153, 153, 153); margin: 10px 3px 0px 0px; padding: 0px; height: 30px; width: 73px; }
+.signInBody hr { margin: 18px 0px 17px; width: 100%; }
+.formSignIn { border-radius: 2px; }
+.aaLinks-sm a { display: block; margin: 5px 0px 6px; }
+#capsLokMsg::before { top: 70px; }
+.homepage-lead { height: 355px; width: 962px; margin-bottom: 20px; }
+.slide { height: 355px; width: 962px; text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15); }
+.slide.dark { text-shadow: none; }
+.homepage-lead .lead-headline, .homepage-lead .lead-tagline { font-family: "Source Sans Pro","Gudea","Trebuchet MS"; }
+.homepage-lead .lead-headline { letter-spacing: -0.03em; }
+.homepage-lead .lead-headline { font-size: 30px; font-weight: 600; line-height: 32px; margin-bottom: 10px; padding-bottom: 0px; }
+.homepage-lead .lead-tagline { font-size: 20px; font-weight: 600; line-height: 25px; margin-bottom: 20px; padding-bottom: 0px; }
+.homepage-lead a .lead-headlne, .homepage-lead a .lead-tagline { color: rgb(255, 255, 255); }
+.homepage-lead a.dark .lead-headlne, .homepage-lead a.dark .lead-tagline { color: rgb(34, 34, 34); }
+a.slide:link, a.slide:visited, a.slide:hover { color: rgb(255, 255, 255); }
+a.slide.dark:link, a.slide.dark:visited, a.slide.dark:hover { color: rgb(34, 34, 34); }
+.homepage-lead .lead-cta-link { font-family: Arial,Helvetica,sans-serif; font-size: 15px; font-weight: bold; text-transform: uppercase; }
+.homepage-lead a { display: block; padding-left: 310px; padding-top: 45px; }
+.cycle-slideshow .slide { display: none; }
+.cycle-slideshow, .cycle-slideshow * { box-sizing: border-box; }
+.cycle-slideshow { width: 100%; min-width: 200px; max-width: 962px; margin: 0px 0px 20px; padding: 0px; position: relative; }
+.cycle-slideshow .cycle-pager { text-align: center; width: 100%; z-index: 400; position: absolute; bottom: 20px; overflow: hidden; }
+.cycle-pager span { font-family: arial; font-size: 0px; width: 16px; height: 16px; background-color: rgb(206, 214, 214); border-radius: 50%; display: inline-block; color: rgb(206, 214, 214); cursor: pointer; margin: 0px 12px; opacity: 0.9; }
+.cycle-pager span:hover { background-color: rgb(255, 255, 255); opacity: 1; }
+.cycle-pager span.cycle-pager-active { background-color: rgb(255, 255, 255); }
+.cycle-pager > * { cursor: pointer; }
+.slide { width: 962px; height: 355px; }
+.promo { background: rgb(255, 255, 255) none repeat scroll 0% 0%; float: left; height: 267px; width: 226px; margin-right: 19px; margin-bottom: 30px; }
+.promo.last { margin-right: 0px; }
+.promo h2, .promo h3, .short-wide-promo h3, .medium-wide-promo h3 { color: rgb(34, 34, 34); font: 600 18px/22px "Source Sans Pro","Gudea","Trebuchet MS"; padding-bottom: 6px; }
+.promo-2 h2, .promo h3, .short-wide-promo h3, .medium-wide-promo h3 { color: rgb(34, 34, 34); font: 600 18px/22px "Source Sans Pro","Gudea","Trebuchet MS"; padding-bottom: 6px; }
+.promo-header { padding: 8px 16px 0px; background-color: rgb(233, 233, 233); text-transform: uppercase; }
+.promo a { display: block; height: 267px; }
+.promo a:link, .promo a:visited, .promo a:hover { color: rgb(34, 34, 34); }
+.text-promo a { display: inline; height: auto; }
+.promo:hover { box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15); }
+.text-promo:hover { box-shadow: none; }
+.promo-body { padding: 10px 16px 16px; }
+.promo-body p { color: rgb(51, 51, 51); font: 13px/19px Arial,Helvetica,sans-serif; }
+.text-promo a:link, .text-promo a:visited { color: rgb(38, 106, 182); }
+.text-promo a:hover { color: rgb(255, 159, 59); }
+.text-promo { border-width: 0px 4px 4px; border-style: solid; border-color: rgb(233, 233, 233); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; height: 265px; width: 218px; }
+.text-promo h2, .text-promo h3 { color: rgb(64, 66, 68); font-size: 14px; line-height: 17px; text-align: left; text-shadow: none; }
+.text-promo .promo-body h2, .text-promo .promo-body h3 { color: rgb(15, 61, 112); font-family: Arial,Helvetica,sans-serif; }
+.text-promo-2 a:link, .text-promo a:visited { color: rgb(38, 106, 182); }
+.large-promo p, .short-wide-promo p, .medium-wide-promo p { line-height: 18px; }
+.short-wide-promo .promo-body a, .medium-wide-promo .promo-body a { display: block; font-size: 13px; font-weight: bold; line-height: 1em; padding-top: 10px; }
+.large-promo { float: left; height: 430px; width: 308px; background: white none repeat scroll 0% 0%; margin-bottom: 40px; margin-right: 20px; }
+.short-wide-promo { float: left; height: 172px; width: 634px; background: white none repeat scroll 0% 0%; margin-bottom: 20px; }
+.short-wide-promo img { float: left; margin-right: 10px; }
+.medium-wide-promo { float: left; height: 238px; width: 634px; background: white none repeat scroll 0% 0%; margin-bottom: 40px; }
+.medium-wide-promo img { float: right; margin-left: 10px; }
+.large-promo .third-party-disclaimer { font-size: 0.95em; color: rgb(153, 153, 153); line-height: 1em; }
+.short-wide-promo .img-link { float: left; }
+.medium-wide-promo .img-link { float: right; }
+.short-wide-promo, .medium-wide-promo { display: table; }
+.short-wide-promo .promo-body, .medium-wide-promo .promo-body { display: table-cell; vertical-align: middle; padding: 0px 16px; }
+.search-branches { float: left; margin-bottom: 50px; width: 300px; }
+.search-branches h3 a:link { color: rgb(15, 61, 112); font: 600 18px/26px "Source Sans Pro","Gudea","Trebuchet MS"; text-shadow: none; }
+.search-branches form { border: 1px solid rgb(186, 195, 206); border-radius: 4px; height: 40px; width: 298px; }
+.search-branches-input { background-color: rgb(255, 255, 255); border: medium none; border-radius: 4px 0px 0px 4px; color: rgb(124, 126, 129); float: left; font: 16px/40px Arial,Helvetica,sans-serif; height: 40px; padding-left: 8px; width: 240px; }
+.search-branches-button { background: rgb(33, 92, 159) url("14.png") no-repeat scroll 0% 0%; border-radius: 0px 4px 4px 0px; line-height: 40px; color: transparent; height: 40px; width: 50px; }
+.search-branches-button:hover { opacity: 0.95; }
+.rates-ribbon-homepage { border-left: 1px solid rgb(202, 207, 211); height: 104px; margin-left: 322px; position: relative; }
+.ratebox { border-left: 1px dashed rgb(202, 207, 211); float: left; padding: 8px 18px 13px; max-width: 120px; }
+.ratebox sup { font-size: 1em; }
+.ratebox.first { border-left: medium none; }
+.ratebox.last { padding-right: 0px; }
+.ratebox a { display: block; font: bold 13px/1.3em Arial,Helvetica,sans-serif; }
+.ratebox .rate-copy { color: rgb(152, 152, 152); display: block; font: 11px/1em Arial,Helvetica,sans-serif; }
+.ratebox .rate { color: rgb(28, 29, 30); font: 400 38px/1em "Source Sans Pro","Arial Narrow",serif; letter-spacing: -1px; }
+.ratebox .percent { color: rgb(28, 29, 30); font: 400 21px/1em "Source Sans Pro","Gudea","Trebuchet MS",sans-serif; vertical-align: super; }
+.ratebox .apr { color: rgb(152, 152, 152); margin-left: -13px; }
+.rates-ribbon-homepage .more-rates { font-size: 13px; font-weight: bold; text-transform: uppercase; position: absolute; bottom: 0px; right: 0px; }
+.rates-ribbon-homepage .more-rates::after { content: " »"; }
+/* ::::: [internal] ::::: */
+
+.promo-NeedtoKnow { padding: 10px 15px 16px; }
+.notice-banner { display: none; background-color: rgb(255, 255, 255); clear: left; height: 50px; margin-top: 10px; }
+.notice-label { background-color: rgb(51, 153, 51); color: rgb(255, 255, 255); float: left; font-family: Arial,sans-serif; font-weight: bold; font-size: 15px; line-height: 50px; height: 50px; text-transform: uppercase; padding-left: 8px; margin-right: 0px; }
+.notice-text { display: block; float: left; font: bold 13px/17px Arial,sans-serif; padding-top: 8px; width: 86%; }
+.triangle-right { display: inline-block; float: left; margin-right: 10px; width: 0px; height: 0px; border-width: 25px 0px 25px 15px; border-style: solid; border-color: transparent transparent transparent rgb(51, 153, 51); }
+/* ::::: [internal] ::::: */
+
+.nav-wrap { display: none; }
